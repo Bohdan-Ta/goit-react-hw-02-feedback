@@ -1,0 +1,17 @@
+.section {
+  padding: 50px 0;
+  margin: 5px auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  text-transform: uppercase;
+}
