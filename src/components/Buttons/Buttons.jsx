@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import s from '../Buttons/Buttons.module.css';
 
 export default function Buttons({ onIncrementFeetback, nameFeetback }) {
@@ -14,3 +15,8 @@ export default function Buttons({ onIncrementFeetback, nameFeetback }) {
     </>
   );
 }
+
+Buttons.propTypes = {
+  onIncrementFeetback: PropTypes.func.isRequired,
+  nameFeetback: PropTypes.string.isRequired,
+};

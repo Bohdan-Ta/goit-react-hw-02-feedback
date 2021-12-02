@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import Buttons from '../Buttons/Buttons';
 import s from './Feedback.module.css';
 
@@ -8,7 +9,7 @@ export default function Feedback({ options, onIncrementFeetback }) {
     <>
       <ul className={s.list}>
         {options.map(([key]) => (
-          <li key={key}>
+          <li key={key} className={s.item}>
             <Buttons
               onIncrementFeetback={onIncrementFeetback}
               nameFeetback={key}
@@ -21,5 +22,6 @@ export default function Feedback({ options, onIncrementFeetback }) {
 }
 
 Feedback.propTypes = {
-  button: PropTypes.string,
+  options: PropTypes.arrayOf(PropTypes.array).isRequired,
+  onIncrementFeetback: PropTypes.func.isRequired,
 };

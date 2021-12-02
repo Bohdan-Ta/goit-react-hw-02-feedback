@@ -1,29 +1,8 @@
-/* .button {
-  height: 100px;
-  width: 100px;
-  margin-right: 10px;
-  padding: 1px 5px;
-  background-color: rgb(33, 174, 240);
-  color: #000;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-align: center;
-  border-radius: 10px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-.button:hover {
-  transform: scale(1.1);
-  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
-  color: red;
-} */
-
 .button {
-  margin-right: 20px;
-  height: 100px;
-  line-height: 50px;
-  background: #e41931;
+  height: 80px;
+  width: 200px;
+  line-height: 40px;
+  background: #f5af55d7;
   border-radius: 20px;
   font-weight: bold;
   font-size: 22px;
@@ -36,6 +15,7 @@
 .button:hover {
   transform: scale(1.1);
   animation: none;
+  background: coral;
 }
 
 @keyframes animate_pulse2 {
