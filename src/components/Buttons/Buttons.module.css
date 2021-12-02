@@ -11,6 +11,7 @@
   text-transform: uppercase;
   color: #ffffff;
   animation: animate_pulse2 2s infinite;
+  cursor: pointer;
 }
 .button:hover {
   transform: scale(1.1);
