@@ -1,19 +1,4 @@
-.container {
-  margin: 0 auto;
-  text-align: center;
-}
-.button {
-  height: 30px;
-  width: 100px;
-  margin-right: 10px;
-  padding: 1px 5px;
-  background-color: rgb(33, 174, 240);
-  color: #000;
-  font-weight: 600;
-  text-align: center;
-  outline: none;
-  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
-  border: none;
-  outline: none;
-  cursor: pointer;
+.list {
+  display: flex;
+  justify-content: center;
 }
