@@ -1,5 +1,5 @@
 body {
-  background-image: url('../../images/bp.webp');
+  background-image: url('../../images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -41,7 +41,7 @@ body {
   background-position: bottom;
   background-size: 70px 70px;
   background-repeat: no-repeat;
-  background-color: greenyellow;
+  background-color: green;
 }
 
 .neutral {
