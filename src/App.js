@@ -30,6 +30,7 @@ class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
+    const total = this.totalFeedback() > 0;
     return (
       <>
         <Section title="Please leave feedback">
@@ -39,7 +40,7 @@ class App extends Component {
           />
         </Section>
         <Section title="Statistics">
-          {this.totalFeedback() && (
+          {total && (
             <Statistics
               good={good}
               neutral={neutral}
@@ -48,7 +49,7 @@ class App extends Component {
               persantageGoodFeedback={this.persantageGoodFeedback}
             />
           )}
-          {!this.totalFeedback() && (
+          {!total && (
             <Notification
               message="There is no feedback!       
             Make your choice"
