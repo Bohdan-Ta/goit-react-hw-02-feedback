@@ -22,6 +22,7 @@ body {
   border: 5px solid orange;
   background-color: khaki;
   border-radius: 10%;
+  text-transform: capitalize;
 }
 .itemLikes {
   display: block;
@@ -34,28 +35,4 @@ body {
   line-height: 70px;
   color: coral;
   font-weight: 900;
-}
-
-.good {
-  background-image: url('../../images/cool.png');
-  background-position: bottom;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-color: green;
-}
-
-.neutral {
-  background-image: url('../../images/so-so.png');
-  background-position: bottom;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-color: bisque;
-}
-
-.bad {
-  background-image: url('../../images/bad.png');
-  background-position: bottom;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-color: red;
 }
